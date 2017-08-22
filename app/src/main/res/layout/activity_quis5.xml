@@ -32,7 +32,7 @@
             android:id="@+id/jawaban1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Proxy"
+            android:text="@string/lbl_proxy"
             android:textSize="18sp" />
 
         <RadioButton
@@ -70,9 +70,7 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="8dp">
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/result"
